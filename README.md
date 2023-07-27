@@ -6,7 +6,7 @@
 
 This Landing Page Design Template is a responsive web page created using HTML and CSS. The design reference for this template is based on the "DESIGNERD-20" project, which can be found on Behance [here](https://www.behance.net/gallery/64208001/DESIGNERD-20).
 
-![Landing Page Design Template](landing-page-screenshot.png)
+![Landing Page Design Template](https://www.behance.net/gallery/64208001/DESIGNERD-20)
 
 ## Features
 
