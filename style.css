@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+}
+#right{
+    height: 100%;
+    width: 60%;
+    background-color: blue;
+}
+#rtop{
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+}
+#rtopright{
+    height: 100%;
+    width: 45%;
+    /* background-color: orange; */
+    background-image: url(https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#rtopleft{
+    height: 100%;
+    width: 55%;
+    /* background-color: purple; */
+    background-image: url(https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#rbottom{
+    height: 50%;
+    width: 100%;
+    /* background-color: pink; */
+    background-image: url(https://images.unsplash.com/photo-1487611459768-bd414656ea10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2880&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#left{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    position: relative;
+}
+#lnav{
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#lnavr{
+    display: flex;
+    align-items: center;
+}
+#lnavr a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+#lnavr i{
+    color: royalblue;
+}
+#left #center-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#center-text h1{
+    font-size: 90px;
+    font-weight: 900;
+    color: #000;
+}
+#center-text p{
+    font-size: 12px;
+    line-height: 20px;
+    opacity: 0.6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+#center-text a{
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+@media (max-width: 500px) {
+    #main{
+        flex-direction: column;
+    }
+    #main #right{
+        width: 100%;
+    }
+    #main #left{
+        width: 100%;
+    }
+}
